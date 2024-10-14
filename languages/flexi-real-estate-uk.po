@@ -1,0 +1,227 @@
+# Copyright (C) 2024 mnyorba
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexi Real Estate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexi-real-"
+"estate\n"
+"POT-Creation-Date: 2024-10-11T11:59:08+00:00\n"
+"PO-Revision-Date: 2024-10-11 14:59+0300\n"
+"Last-Translator: \n"
+"Language-Team: The team <mnyorba@gmail.com>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. Plugin Name of the plugin
+#: flexi-real-estate.php
+msgid "Flexi Real Estate"
+msgstr ""
+
+#. Description of the plugin
+#: flexi-real-estate.php
+msgid "Custom post type for real estate with taxonomies and ACF fields"
+msgstr ""
+
+#. Author of the plugin
+#: flexi-real-estate.php
+msgid "mnyorba"
+msgstr ""
+
+#: src/classes/class-district-taxonomy.php:12
+msgid "Districts"
+msgstr "Райони"
+
+#: src/classes/class-district-taxonomy.php:13
+msgid "District"
+msgstr "Район"
+
+#: src/classes/class-real-estate-acf-fields.php:11
+msgid "Real Estate Object Details"
+msgstr "Деталі об'єкта нерухомості"
+
+#: src/classes/class-real-estate-acf-fields.php:19
+msgid "House Name"
+msgstr "Назва будинку"
+
+#: src/classes/class-real-estate-acf-fields.php:26
+msgid "Location Coordinates"
+msgstr "Координати розташування"
+
+#: src/classes/class-real-estate-acf-fields.php:32
+msgid "Number of Floors"
+msgstr "Кількість поверхів"
+
+#: src/classes/class-real-estate-acf-fields.php:36
+#: src/classes/class-real-estate-acf-fields.php:59 src/functions/fields.php:50
+msgid "No selected"
+msgstr "Не вибрано"
+
+#: src/classes/class-real-estate-acf-fields.php:43
+msgid "Building Type"
+msgstr "Тип будівлі"
+
+#: src/classes/class-real-estate-acf-fields.php:47
+msgid "Panel"
+msgstr "Панель"
+
+#: src/classes/class-real-estate-acf-fields.php:48
+msgid "Brick"
+msgstr "Цегла"
+
+#: src/classes/class-real-estate-acf-fields.php:49
+msgid "Foam Block"
+msgstr "Піноблок"
+
+#: src/classes/class-real-estate-acf-fields.php:55
+msgid "Environmental Friendliness"
+msgstr "Екологічна чистота"
+
+#: src/classes/class-real-estate-acf-fields.php:65
+msgid "Image"
+msgstr "Зображення"
+
+#: src/classes/class-real-estate-acf-fields.php:71
+msgid "Apartments"
+msgstr "Квартири"
+
+#: src/classes/class-real-estate-acf-fields.php:77
+msgid "Area"
+msgstr "Площа"
+
+#: src/classes/class-real-estate-acf-fields.php:84
+msgid "Number of Rooms"
+msgstr "Кількість кімнат"
+
+#: src/classes/class-real-estate-acf-fields.php:92
+msgid "Balcony"
+msgstr "Балкон"
+
+#: src/classes/class-real-estate-acf-fields.php:96
+#: src/classes/class-real-estate-acf-fields.php:107
+msgid "Yes"
+msgstr "Так"
+
+#: src/classes/class-real-estate-acf-fields.php:97
+#: src/classes/class-real-estate-acf-fields.php:108
+msgid "No"
+msgstr "Ні"
+
+#: src/classes/class-real-estate-acf-fields.php:103
+msgid "Bathroom"
+msgstr "Ванна кімната"
+
+#: src/classes/class-real-estate-acf-fields.php:114
+msgid "Room Image"
+msgstr "Зображення кімнати"
+
+#: src/classes/class-real-estate-ajax-filter.php:10
+#: src/classes/class-real-estate-ajax-filter.php:29
+msgid "Real Estate AJAX Filter"
+msgstr "Фільтр для об'єктів нерухомості"
+
+#: src/classes/class-real-estate-ajax-filter.php:11
+msgid "AJAX filter for real estate listings"
+msgstr "Фільтр для об'єктів нерухомості"
+
+#: src/classes/class-real-estate-ajax-filter.php:42
+msgid "Apply"
+msgstr "Застосувати фільтр"
+
+#. translators: 1: The number of found posts.
+#: src/classes/class-real-estate-ajax-filter.php:180
+msgctxt "founds title"
+msgid "Found %s real estate."
+msgid_plural "Found %s real estate."
+msgstr[0] "Знайдено %s об'єкт нерухомості."
+msgstr[1] "Знайдено %s об'єкти нерухомості."
+msgstr[2] "Знайдено %s об'єктів нерухомості."
+
+#: src/classes/class-real-estate-ajax-filter.php:193
+msgid "No real estate listings found."
+msgstr "Об'єктів нерухомості не знайдено."
+
+#: src/classes/class-real-estate-ajax-filter.php:225
+msgid "Real Estate Filter"
+msgstr "Фільтр для об'єктів нерухомості"
+
+#: src/classes/class-real-estate-post-type.php:11
+msgid "Real Estate"
+msgstr "Об'єкти нерухомості"
+
+#: src/classes/class-real-estate-post-type.php:12
+msgid "Real Estate Item"
+msgstr "Об'єкт нерухомості"
+
+#: src/functions/fields.php:76 src/functions/taxonomy.php:9
+msgid "Select"
+msgstr "Вибрати"
+
+#: src/functions/fields.php:85
+msgid "Repeater fields"
+msgstr ""
+
+#~ msgid "Filter"
+#~ msgstr "Фільтр"
+
+#~ msgid "Title: "
+#~ msgstr "Заголовок: "
+
+#~ msgid "Found %s real estate."
+#~ msgstr "Знайдено %s об'єкт нерухомості."
+
+#~ msgctxt "flexi-real-estate"
+#~ msgid "Found %s real estate."
+#~ msgid_plural "Found %s real estate."
+#~ msgstr[0] "Знайдено %s об'єкт нерухомості."
+#~ msgstr[1] "Знайдено %s об'єкти нерухомості."
+#~ msgstr[2] "Знайдено %s об'єктів нерухомості."
+
+#~ msgid "Filter Real Estate Listings"
+#~ msgstr "Об'єкти нерухомості"
+
+#~ msgid "Title:"
+#~ msgstr "Заголовок:"
+
+#~ msgid "Rooms"
+#~ msgstr "Кімнати"
+
+#~ msgid "All"
+#~ msgstr "Всі"
+
+#~ msgid "Edit"
+#~ msgstr "Редагувати"
+
+#~ msgid "View"
+#~ msgstr "Перегляд"
+
+#~ msgid "Update"
+#~ msgstr "Оновити"
+
+#~ msgid "Add New"
+#~ msgstr "Додати новий"
+
+#~ msgid "New name"
+#~ msgstr "Новий"
+
+#~ msgid "Search"
+#~ msgstr "Пошук"
+
+#~ msgid "Parent"
+#~ msgstr "Батьківський"
+
+#~ msgid "Parent:"
+#~ msgstr "Батьківський:"
+
+#~ msgid "No found"
+#~ msgstr "Не знайдено"
+
+#~ msgid "No "
+#~ msgstr "Ні "
+
+#~ msgid "Circles"
+#~ msgstr "Кола"

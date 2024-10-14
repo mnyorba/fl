@@ -1,0 +1,163 @@
+# Copyright (C) 2024 mnyorba
+# This file is distributed under the same license as the Flexi Real Estate plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexi Real Estate 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexi-real-estate\n"
+"Last-Translator: mnyorba <mnyorba@gmail.com>\n"
+"Language-Team: The team <mnyorba@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-11T11:59:08+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#. Plugin Name of the plugin
+#: flexi-real-estate.php
+msgid "Flexi Real Estate"
+msgstr ""
+
+#. Description of the plugin
+#: flexi-real-estate.php
+msgid "Custom post type for real estate with taxonomies and ACF fields"
+msgstr ""
+
+#. Author of the plugin
+#: flexi-real-estate.php
+msgid "mnyorba"
+msgstr ""
+
+#: src/classes/class-district-taxonomy.php:12
+msgid "Districts"
+msgstr ""
+
+#: src/classes/class-district-taxonomy.php:13
+msgid "District"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:11
+msgid "Real Estate Object Details"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:19
+msgid "House Name"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:26
+msgid "Location Coordinates"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:32
+msgid "Number of Floors"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:36
+#: src/classes/class-real-estate-acf-fields.php:59
+#: src/functions/fields.php:50
+msgid "No selected"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:43
+msgid "Building Type"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:47
+msgid "Panel"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:48
+msgid "Brick"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:49
+msgid "Foam Block"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:55
+msgid "Environmental Friendliness"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:65
+msgid "Image"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:71
+msgid "Apartments"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:77
+msgid "Area"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:84
+msgid "Number of Rooms"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:92
+msgid "Balcony"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:96
+#: src/classes/class-real-estate-acf-fields.php:107
+msgid "Yes"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:97
+#: src/classes/class-real-estate-acf-fields.php:108
+msgid "No"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:103
+msgid "Bathroom"
+msgstr ""
+
+#: src/classes/class-real-estate-acf-fields.php:114
+msgid "Room Image"
+msgstr ""
+
+#: src/classes/class-real-estate-ajax-filter.php:10
+#: src/classes/class-real-estate-ajax-filter.php:29
+msgid "Real Estate AJAX Filter"
+msgstr ""
+
+#: src/classes/class-real-estate-ajax-filter.php:11
+msgid "AJAX filter for real estate listings"
+msgstr ""
+
+#: src/classes/class-real-estate-ajax-filter.php:42
+msgid "Apply"
+msgstr ""
+
+#. translators: 1: The number of found posts.
+#: src/classes/class-real-estate-ajax-filter.php:180
+msgctxt "founds title"
+msgid "Found %s real estate."
+msgid_plural "Found %s real estate."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/classes/class-real-estate-ajax-filter.php:193
+msgid "No real estate listings found."
+msgstr ""
+
+#: src/classes/class-real-estate-ajax-filter.php:225
+msgid "Real Estate Filter"
+msgstr ""
+
+#: src/classes/class-real-estate-post-type.php:11
+msgid "Real Estate"
+msgstr ""
+
+#: src/classes/class-real-estate-post-type.php:12
+msgid "Real Estate Item"
+msgstr ""
+
+#: src/functions/fields.php:76
+#: src/functions/taxonomy.php:9
+msgid "Select"
+msgstr ""
+
+#: src/functions/fields.php:85
+msgid "Repeater fields"
+msgstr ""

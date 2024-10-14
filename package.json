@@ -1,0 +1,29 @@
+{
+	"name": "wisart-core",
+	"version": "1.0.0",
+	"description": "WisArt core plugin",
+	"author": "mnyorba",
+	"license": "GPL-2.0-or-later",
+	"homepage": "http://wisart.info/",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php --webpack-src-dir=src/blocks",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"format": "wp-scripts format ./src/blocks",
+		"lint:css": "wp-scripts lint-style ./src/blocks",
+		"lint:js": "wp-scripts lint-js ./src/blocks",
+		"lint:md:docs": "wp-scripts lint-md-docs ./src/blocks",
+		"lint:pkg-json": "wp-scripts lint-pkg-json ./src/blocks",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --webpack-copy-php --webpack-src-dir=src/blocks",
+		"test:e2e": "wp-scripts test-e2e ./src/blocks",
+		"test:unit": "wp-scripts test-unit-js ./src/blocks",
+		"make-pot": "./vendor/bin/wp i18n make-pot . languages/flexi-real-estate.pot --exclude=node_modules,vendor,build --ignore-domain --headers='{\"Last-Translator\":\"mnyorba <mnyorba@gmail.com>\",\"Language-Team\":\"The team <mnyorba@gmail.com>\"}'",
+		"make-json": "./vendor/bin/wp i18n make-json languages/ --no-purge --pretty-print"
+	},
+	"devDependencies": {
+		"@wp-blocks/make-pot": "^1.4.0"
+	}
+}
